@@ -1,0 +1,41 @@
+# Akka（阿卡）配置示例文件
+# 复制此文件为 config.yaml 并填入您的实际配置
+
+# LLM 模型配置（必需）
+llm:
+  # 模型提供商: openai, ark, deepseek, qwen 等
+  provider: "openai"
+  
+  # API Key（从环境变量读取，或直接填写）
+  # 推荐使用环境变量: ${OPENAI_API_KEY}
+  api_key: "${OPENAI_API_KEY}"
+  
+  # API Base URL（可选，用于自定义端点或代理）
+  # 示例: https://api.openai.com/v1 或您的自定义端点
+  base_url: "${OPENAI_BASE_URL}"
+  
+  # 模型名称
+  model: "gpt-4o"
+
+# AgentBay 配置（仅在使用 agent_bay 浏览器模式时需要）
+agent_bay:
+  api_key: "${AGENTBAY_API_KEY}"
+
+# 浏览器配置
+browser:
+  # 浏览器提供者: local 或 agent_bay
+  # - local: 使用本地 Chromium 浏览器（无需 API Key）
+  # - agent_bay: 使用 AgentBay 云浏览器（需要配置 agent_bay.api_key）
+  provider: "local"
+  
+  # Local 模式配置
+  headless: false              # 是否无头模式运行
+  disable_security: true       # 是否禁用安全策略
+  user_data_dir: "./browser_data"  # 浏览器用户数据目录
+
+# Agent 配置
+agent:
+  max_steps: 60
+
+# NewsAPI 配置（可选）
+newsapi: "${NEWSAPI_KEY}"

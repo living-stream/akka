@@ -1,0 +1,28 @@
+.trae/
+__pycache__/
+browser_data/
+output/
+*.log
+.env
+.env.*
+.venv/
+venv/
+.python-version
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.DS_Store
+users/
+
+# Frontend (Next.js)
+web/.next/
+web/node_modules/
+web/out/
+web/build/
+web/.DS_Store
+
+# Sensitive config files
+config/config.yaml
+*.secret.yaml
+*.secret.yml
