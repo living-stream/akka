@@ -163,7 +163,7 @@ python master/client.py health
 ## 📂 项目结构
 
 ```
-auto_ven/
+akka/
 ├── master/                    # 后端核心
 │   ├── server.py              # FastAPI 服务端
 │   ├── client.py              # 命令行客户端
@@ -249,6 +249,12 @@ Akka 基于以下优秀的开源项目构建：
 - **[Next.js](https://github.com/vercel/next.js)** - React 全栈框架
 
 感谢这些项目背后的开发者和社区！
+
+## 📧 联系我们
+
+如有任何问题或建议，欢迎联系我们：
+
+- **邮箱**: burns@ven-ai.top
 
 ## 📄 License
 

@@ -163,7 +163,7 @@ python master/client.py health
 ## 📂 Project Structure
 
 ```
-auto_ven/
+akka/
 ├── master/                    # Backend core
 │   ├── server.py              # FastAPI server
 │   ├── client.py              # Command line client
@@ -250,6 +250,12 @@ Akka is built on the following excellent open-source projects:
 
 Thanks to the developers and communities behind these projects!
 
-## 📄 License
+## � Contact Us
+
+If you have any questions or suggestions, feel free to contact us:
+
+- **Email**: burns@ven-ai.top
+
+## �📄 License
 
 MIT License
