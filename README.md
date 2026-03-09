@@ -1,13 +1,13 @@
-[English](README_EN.md) | 简体中文
+English | [简体中文](README_ZH.md)
 
-# 🍊 Akka（阿卡）- AI 驱动的自媒体运营神器
+# 🍊 Akka - AI-Powered Social Media Operation Tool
 
 <p align="center">
   <img src="akka.png" alt="Akka" width="600">
 </p>
 
 <p align="center">
-  <strong>一句话，完成从选题到发布的完整闭环</strong>
+  <strong>Complete the full loop from topic selection to publishing with a single sentence</strong>
 </p>
 
 <p align="center">
@@ -19,70 +19,70 @@
 
 ---
 
-## 📖 目录
+## 📖 Table of Contents
 
-- [🍊 Akka（阿卡）- AI 驱动的自媒体运营神器](#-akka阿卡---ai-驱动的自媒体运营神器)
-  - [🎯 核心能力](#-核心能力)
-  - [🚀 快速开始](#-快速开始)
-  - [✨ 功能特性](#-功能特性)
-  - [📖 使用指南](#-使用指南)
-  - [📂 项目结构](#-项目结构)
-  - [🔌 API 接口](#-api-接口)
-  - [🙏 致谢](#-致谢)
-  - [� 联系我们](#-联系我们)
-  - [�📄 License](#-license)
+- [🍊 Akka - AI-Powered Social Media Operation Tool](#-akka---ai-powered-social-media-operation-tool)
+  - [🎯 Core Capabilities](#-core-capabilities)
+  - [🚀 Quick Start](#-quick-start)
+  - [✨ Features](#-features)
+  - [📖 User Guide](#-user-guide)
+  - [📂 Project Structure](#-project-structure)
+  - [🔌 API Endpoints](#-api-endpoints)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [📧 Contact Us](#-contact-us)
+  - [📄 License](#-license)
 
 ---
 
-## 🎯 核心能力
+## 🎯 Core Capabilities
 
-Akka（**A**utomated **K**nowledge & **K**ontent **A**ssistant）是一个开源的 **AI 自媒体运营助手**，通过 **浏览器自动化**、**素材搜索**、**内容生成** 和 **内容发布**，实现从选题到发布的完整闭环。
+Akka (**A**utomated **K**nowledge & **K**ontent **A**ssistant) is an open-source **AI Social Media Operation Assistant** that achieves a complete loop from topic selection to publishing through **browser automation**, **material search**, **content generation**, and **content publishing**.
 
-只需一句话指令，Akka 自动完成：
+Just one instruction, Akka automatically completes:
 
-| 能力 | 描述 |
-|------|------|
-| 🤖 **自动化浏览器操作** | 搜索竞品、收集素材、查看数据 |
-| 🔍 **自动化素材搜索** | 智能搜索并整理相关素材 |
-| 🎨 **自动化图文生成** | 大纲规划、文案创作、图片生成 |
-| 📤 **自动化发布** | 自动发布内容 |
+| Capability | Description |
+|------------|-------------|
+| 🤖 **Automated Browser Operations** | Search competitors, collect materials, view data |
+| 🔍 **Automated Material Search** | Intelligently search and organize relevant materials |
+| 🎨 **Automated Content Generation** | Outline planning, copywriting creation, image generation |
+| 📤 **Automated Publishing** | Automatically publish content |
 
-**从选题策划到定时发布，让 AI Agent 为你的自媒体运营提效 10 倍，真正实现"所想即所得"。**
+**From topic planning to scheduled publishing, let AI Agent boost your social media operation efficiency by 10x, truly achieving "what you think is what you get".**
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 3 步启动
+### 3-Step Launch
 
 ```bash
-# 1. 克隆项目
+# 1. Clone the project
 git clone https://github.com/living-stream/akka.git
 cd akka
 
-# 2. 配置 API Key
+# 2. Configure API Key
 cp config.example.yaml config/config.yaml
-# 编辑 config/config.yaml，填入你的 OpenAI API Key
+# Edit config/config.yaml and fill in your OpenAI API Key
 
-# 3. 启动
+# 3. Start
 ./start.sh
 ```
 
-访问 http://localhost:3000 即可使用！
+Visit http://localhost:3000 to get started!
 
-### 前置条件
+### Prerequisites
 
 - Python 3.10+
 - Node.js 18+
-- Chrome 浏览器
+- Chrome Browser
 
-### 配置说明
+### Configuration
 
-**方式一：环境变量（推荐）**
+**Option 1: Environment Variables (Recommended)**
 ```bash
 export OPENAI_API_KEY="your-api-key"
-export OPENAI_BASE_URL="https://api.openai.com/v1"  # 可选
+export OPENAI_BASE_URL="https://api.openai.com/v1"  # optional
 ```
 
-**方式二：配置文件**
+**Option 2: Configuration File**
 ```yaml
 llm:
   provider: "openai"
@@ -90,173 +90,173 @@ llm:
   model: "gpt-4o"
 ```
 
-## ✨ 功能特性
+## ✨ Features
 
-### 🖥️ Web 界面
+### 🖥️ Web Interface
 
-| 功能 | 描述 |
-|-----|------|
-| 💬 智能对话 | 流式对话体验，支持思考过程展示 |
-| 📝 工作区 | 笔记卡片展示，图片缩略图预览，点击展开详情 |
-| ⏰ 定时任务 | 创建、管理定时任务，实时状态追踪 |
-| ⚙️ 设置管理 | 用户人设和记忆配置 |
+| Feature | Description |
+|---------|-------------|
+| 💬 Smart Chat | Streaming conversation experience with thinking process display |
+| 📝 Workspace | Note card display, image thumbnail preview, click to expand details |
+| ⏰ Scheduled Tasks | Create and manage scheduled tasks with real-time status tracking |
+| ⚙️ Settings | User persona and memory configuration |
 
-### 🤖 智能内容生成
+### 🤖 Intelligent Content Generation
 
-- **全自动创作**：根据一句话指令，自动生成完整的小红书图文笔记
-- **三阶段生成流**：大纲规划 → 文案创作 → 图片生成
-- **图片生成**：自动生成配图，支持多张图片
+- **Fully Automated Creation**: Automatically generate complete Xiaohongshu (Little Red Book) image-text notes from a single instruction
+- **Three-stage Generation Flow**: Outline planning → Copywriting creation → Image generation
+- **Image Generation**: Automatically generate supporting images, supporting multiple images
 
-### 📊 技能系统
+### 📊 Skill System
 
-| 技能 | 功能 |
-|-----|------|
-| competitor-benchmarking | 竞品对标分析 |
-| content-creation | 内容生成（含浏览器信息收集） |
-| content-review | 内容复盘分析 |
-| inspiration-hunting | 灵感收集 |
-| scheduled-task | 定时任务管理 |
+| Skill | Function |
+|-------|----------|
+| competitor-benchmarking | Competitor benchmarking analysis |
+| content-creation | Content generation (including browser information collection) |
+| content-review | Content review analysis |
+| inspiration-hunting | Inspiration collection |
+| scheduled-task | Scheduled task management |
 
-### 🌐 浏览器自动化
+### 🌐 Browser Automation
 
-- **信息收集**：搜索竞品、收集店铺信息、查看账号数据
-- **平台操作**：支持小红书、大众点评等平台
+- **Information Collection**: Search competitors, collect store information, view account data
+- **Platform Operations**: Support for Xiaohongshu, Dianping and other platforms
 
-### 🧠 智能中控
+### 🧠 Intelligent Control
 
-- **用户隔离**：每个用户独立的 soul.md、memory.md、workspace
-- **对话记忆**：自动保存对话历史，超过 20 条自动压缩
-- **任务锁**：保证同一用户同时只有一个任务执行
+- **User Isolation**: Each user has independent soul.md, memory.md, workspace
+- **Conversation Memory**: Automatically save conversation history, auto-compress when exceeding 20 entries
+- **Task Lock**: Ensure only one task executes at a time for the same user
 
-## 📖 使用指南
+## 📖 User Guide
 
-### Web 界面
+### Web Interface
 
-1. **对话页面** - 与 AI 助手对话，下达任务指令
-2. **工作区** - 查看已生成的笔记内容，点击卡片展开详情
-3. **任务页面** - 管理定时任务，查看任务状态
-4. **设置页面** - 配置用户人设和记忆
+1. **Chat Page** - Chat with AI assistant, give task instructions
+2. **Workspace** - View generated note content, click cards to expand details
+3. **Tasks Page** - Manage scheduled tasks, view task status
+4. **Settings Page** - Configure user persona and memory
 
-### 命令行客户端
+### Command Line Client
 
-**执行任务**：
+**Execute Task**:
 ```bash
-python master/client.py --uid test_user run "帮我分析咖啡赛道的竞品"
+python master/client.py --uid test_user run "Help me analyze competitors in the coffee sector"
 ```
 
-**更多示例**：
+**More Examples**:
 ```bash
-# 创建定时任务
-python master/client.py --uid test_user run "帮我创建一个明天12点发布咖啡帖子的任务"
+# Create scheduled task
+python master/client.py --uid test_user run "Help me create a task to publish a coffee post tomorrow at 12pm"
 
-# 生成笔记
-python master/client.py --uid test_user run "写一篇关于手冲咖啡的笔记"
+# Generate note
+python master/client.py --uid test_user run "Write a note about pour-over coffee"
 
-# 竞品分析
-python master/client.py --uid test_user run "搜索小红书上咖啡赛道的爆款笔记，分析它们的标题和封面特点"
+# Competitor analysis
+python master/client.py --uid test_user run "Search for viral notes in the coffee sector on Xiaohongshu, analyze their titles and cover characteristics"
 ```
 
-**健康检查**：
+**Health Check**:
 ```bash
 python master/client.py health
 ```
 
-## 📂 项目结构
+## 📂 Project Structure
 
 ```
 akka/
-├── master/                    # 后端核心
-│   ├── server.py              # FastAPI 服务端
-│   ├── client.py              # 命令行客户端
-│   ├── controller.py          # CoreController 核心逻辑
-│   ├── scheduler.py           # 定时任务调度器
+├── master/                    # Backend core
+│   ├── server.py              # FastAPI server
+│   ├── client.py              # Command line client
+│   ├── controller.py          # CoreController core logic
+│   ├── scheduler.py           # Scheduled task scheduler
 │   └── skills/
-│       └── definitions/       # 技能定义目录
-├── web/                       # Next.js 前端
-│   ├── app/                   # 页面路由
-│   │   ├── chat/              # 对话页面
-│   │   ├── workspace/         # 工作区页面
-│   │   ├── tasks/             # 任务页面
-│   │   └── settings/          # 设置页面
-│   ├── components/            # UI 组件
-│   │   ├── ui/                # 基础组件
-│   │   ├── chat/              # 对话组件
-│   │   ├── workspace/         # 工作区组件
-│   │   └── tasks/             # 任务组件
+│       └── definitions/       # Skill definitions directory
+├── web/                       # Next.js frontend
+│   ├── app/                   # Page routes
+│   │   ├── chat/              # Chat page
+│   │   ├── workspace/         # Workspace page
+│   │   ├── tasks/             # Tasks page
+│   │   └── settings/          # Settings page
+│   ├── components/            # UI components
+│   │   ├── ui/                # Basic components
+│   │   ├── chat/              # Chat components
+│   │   ├── workspace/         # Workspace components
+│   │   └── tasks/             # Task components
 │   ├── hooks/                 # React Hooks
-│   ├── store/                 # Zustand 状态管理
-│   └── lib/                   # 工具函数
-├── users/                     # 用户数据目录
-│   └── {uid}/                 # 用户专属目录
-│       ├── soul.md            # 用户人设
-│       ├── memory.md          # 长期记忆
-│       ├── conversation.json  # 对话历史
-│       ├── tasks.json         # 定时任务
-│       └── workspace/         # 工作目录
+│   ├── store/                 # Zustand state management
+│   └── lib/                   # Utility functions
+├── users/                     # User data directory
+│   └── {uid}/                 # User-specific directory
+│       ├── soul.md            # User persona
+│       ├── memory.md          # Long-term memory
+│       ├── conversation.json  # Conversation history
+│       ├── tasks.json         # Scheduled tasks
+│       └── workspace/         # Workspace directory
 │           └── {note_folder}/
-│               ├── copywriting.md  # 笔记文案
-│               ├── outline.md      # 大纲
-│               └── images/         # 图片
-├── agentic_tool/              # Agent 工具
-│   ├── browser_use_agent/     # 浏览器自动化
-│   └── note_generate_agent/   # 内容生成
-├── llm/                       # LLM 模型工厂
-├── config/                    # 配置文件
-└── start.sh                   # 一键启动脚本
+│               ├── copywriting.md  # Note copywriting
+│               ├── outline.md      # Outline
+│               └── images/         # Images
+├── agentic_tool/              # Agent tools
+│   ├── browser_use_agent/     # Browser automation
+│   └── note_generate_agent/   # Content generation
+├── llm/                       # LLM model factory
+├── config/                    # Configuration files
+└── start.sh                   # One-click startup script
 ```
 
-## 🔌 API 接口
+## 🔌 API Endpoints
 
-### 对话
+### Conversation
 
-| 方法 | 路径 | 描述 |
-|-----|------|------|
-| POST | `/run` | 执行任务（流式响应） |
-| GET | `/conversation/{uid}` | 获取对话历史 |
-| DELETE | `/conversation/{uid}` | 清空对话历史 |
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | `/run` | Execute task (streaming response) |
+| GET | `/conversation/{uid}` | Get conversation history |
+| DELETE | `/conversation/{uid}` | Clear conversation history |
 
-### 工作区
+### Workspace
 
-| 方法 | 路径 | 描述 |
-|-----|------|------|
-| GET | `/workspace/{uid}` | 获取笔记列表 |
-| GET | `/workspace/{uid}/notes/{path}` | 获取笔记内容 |
-| GET | `/workspace/{uid}/images/{folder}/{name}` | 获取笔记图片 |
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/workspace/{uid}` | Get note list |
+| GET | `/workspace/{uid}/notes/{path}` | Get note content |
+| GET | `/workspace/{uid}/images/{folder}/{name}` | Get note images |
 
-### 定时任务
+### Scheduled Tasks
 
-| 方法 | 路径 | 描述 |
-|-----|------|------|
-| POST | `/schedule` | 创建定时任务 |
-| GET | `/tasks/{uid}` | 获取任务列表 |
-| DELETE | `/tasks/{uid}/{task_id}` | 取消任务 |
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | `/schedule` | Create scheduled task |
+| GET | `/tasks/{uid}` | Get task list |
+| DELETE | `/tasks/{uid}/{task_id}` | Cancel task |
 
-### 用户
+### User
 
-| 方法 | 路径 | 描述 |
-|-----|------|------|
-| GET | `/user/{uid}/profile` | 获取用户配置 |
-| PUT | `/user/{uid}/soul` | 更新用户人设 |
-| PUT | `/user/{uid}/memory` | 更新用户记忆 |
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/user/{uid}/profile` | Get user profile |
+| PUT | `/user/{uid}/soul` | Update user persona |
+| PUT | `/user/{uid}/memory` | Update user memory |
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-Akka 基于以下优秀的开源项目构建：
+Akka is built on the following excellent open-source projects:
 
-- **[browser-use](https://github.com/browser-use/browser-use)** - 浏览器自动化框架
-- **[LangChain](https://github.com/langchain-ai/langchain)** - LLM 应用开发框架
-- **[LangGraph](https://github.com/langchain-ai/langgraph)** - 多 Agent 编排框架
-- **[FastAPI](https://github.com/tiangolo/fastapi)** - 现代 Python Web 框架
-- **[Next.js](https://github.com/vercel/next.js)** - React 全栈框架
+- **[browser-use](https://github.com/browser-use/browser-use)** - Browser automation framework
+- **[LangChain](https://github.com/langchain-ai/langchain)** - LLM application development framework
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** - Multi-agent orchestration framework
+- **[FastAPI](https://github.com/tiangolo/fastapi)** - Modern Python web framework
+- **[Next.js](https://github.com/vercel/next.js)** - React full-stack framework
 
-感谢这些项目背后的开发者和社区！
+Thanks to the developers and communities behind these projects!
 
-## 📧 联系我们
+## � Contact Us
 
-如有任何问题或建议，欢迎联系我们：
+If you have any questions or suggestions, feel free to contact us:
 
-- **邮箱**: burns@ven-ai.top
+- **Email**: burns@ven-ai.top
 
-## 📄 License
+## �📄 License
 
 MIT License
