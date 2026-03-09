@@ -1,6 +1,93 @@
-# Akka（阿卡）- 自动化全媒体运营助手
+[English](README_EN.md) | 简体中文
 
-Akka（阿卡）是一个基于 AI Agent 的智能运营助手，专为自媒体内容创作者设计。支持用户隔离、对话历史记忆，能够全自动完成从选题策划、内容生成到竞品分析的完整运营闭环。
+# 🍊 Akka（阿卡）- AI 驱动的自媒体运营神器
+
+<p align="center">
+  <img src="akka.png" alt="Akka" width="600">
+</p>
+
+<p align="center">
+  <strong>一句话，完成从选题到发布的完整闭环</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Node.js-18+-green.svg" alt="Node.js">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+  <img src="https://img.shields.io/badge/AI-Agent-orange.svg" alt="AI Agent">
+</p>
+
+---
+
+## 📖 目录
+
+- [🍊 Akka（阿卡）- AI 驱动的自媒体运营神器](#-akka阿卡---ai-驱动的自媒体运营神器)
+  - [🎯 核心能力](#-核心能力)
+  - [🚀 快速开始](#-快速开始)
+  - [✨ 功能特性](#-功能特性)
+  - [📖 使用指南](#-使用指南)
+  - [📂 项目结构](#-项目结构)
+  - [🔌 API 接口](#-api-接口)
+  - [🙏 致谢](#-致谢)
+  - [📄 License](#-license)
+
+---
+
+## 🎯 核心能力
+
+Akka（**A**utomated **K**nowledge & **K**ontent **A**ssistant）是一个开源的 **AI 自媒体运营助手**，通过 **浏览器自动化**、**素材搜索**、**内容生成** 和 **内容发布**，实现从选题到发布的完整闭环。
+
+只需一句话指令，Akka 自动完成：
+
+| 能力 | 描述 |
+|------|------|
+| 🤖 **自动化浏览器操作** | 搜索竞品、收集素材、查看数据 |
+| 🔍 **自动化素材搜索** | 智能搜索并整理相关素材 |
+| 🎨 **自动化图文生成** | 大纲规划、文案创作、图片生成 |
+| 📤 **自动化发布** | 自动发布内容 |
+
+**从选题策划到定时发布，让 AI Agent 为你的自媒体运营提效 10 倍，真正实现"所想即所得"。**
+
+## 🚀 快速开始
+
+### 3 步启动
+
+```bash
+# 1. 克隆项目
+git clone https://github.com/living-stream/akka.git
+cd akka
+
+# 2. 配置 API Key
+cp config.example.yaml config/config.yaml
+# 编辑 config/config.yaml，填入你的 OpenAI API Key
+
+# 3. 启动
+./start.sh
+```
+
+访问 http://localhost:3000 即可使用！
+
+### 前置条件
+
+- Python 3.10+
+- Node.js 18+
+- Chrome 浏览器
+
+### 配置说明
+
+**方式一：环境变量（推荐）**
+```bash
+export OPENAI_API_KEY="your-api-key"
+export OPENAI_BASE_URL="https://api.openai.com/v1"  # 可选
+```
+
+**方式二：配置文件**
+```yaml
+llm:
+  provider: "openai"
+  api_key: "your-api-key"
+  model: "gpt-4o"
+```
 
 ## ✨ 功能特性
 
@@ -39,96 +126,6 @@ Akka（阿卡）是一个基于 AI Agent 的智能运营助手，专为自媒体
 - **用户隔离**：每个用户独立的 soul.md、memory.md、workspace
 - **对话记忆**：自动保存对话历史，超过 20 条自动压缩
 - **任务锁**：保证同一用户同时只有一个任务执行
-
-## 🛠️ 技术栈
-
-| 类别 | 技术 |
-|-----|------|
-| 后端 | Python 3.10+, FastAPI, APScheduler |
-| 前端 | Next.js 14, React 18, TypeScript |
-| UI | Tailwind CSS, Radix UI, Framer Motion |
-| 状态管理 | Zustand |
-| AI | 大语言模型 (支持多种模型) |
-
-## 🚀 快速开始
-
-### 前置条件
-
-- Python 3.10+
-- Node.js 18+
-- Chrome 浏览器
-
-### 配置
-
-1. **复制配置模板**：
-```bash
-cp config.example.yaml config/config.yaml
-```
-
-2. **配置 LLM 模型**（必需）：
-
-方式一：使用环境变量（推荐）
-```bash
-export OPENAI_API_KEY="your-api-key"
-export OPENAI_BASE_URL="https://api.openai.com/v1"  # 可选
-export OPENAI_MODEL="gpt-4o"  # 可选，默认 gpt-4o
-```
-
-方式二：修改配置文件
-编辑 `config/config.yaml`：
-```yaml
-llm:
-  provider: "openai"
-  api_key: "your-api-key"  # 或使用 ${OPENAI_API_KEY}
-  base_url: "https://api.openai.com/v1"  # 可选
-  model: "gpt-4o"
-```
-
-3. **配置 AgentBay**（可选，用于远程浏览器）：
-```bash
-export AGENTBAY_API_KEY="your-agentbay-key"
-```
-
-或在 `config/config.yaml` 中：
-```yaml
-agent_bay:
-  api_key: "your-agentbay-key"
-```
-
-### 一键启动
-
-```bash
-./start.sh
-```
-
-启动脚本会自动：
-1. 安装 Python 依赖
-2. 检查并安装前端依赖
-3. 清理端口占用 (8000, 3000)
-4. 启动后端服务 (FastAPI :8000)
-5. 启动前端服务 (Next.js :3000)
-
-启动完成后访问：
-- **前端界面**: http://localhost:3000
-- **后端 API**: http://localhost:8000
-- **API 文档**: http://localhost:8000/docs
-
-按 `Ctrl+C` 可停止所有服务。
-
-### 单独启动
-
-**后端服务**：
-```bash
-pip install -r requirements.txt
-python -m uvicorn master.server:app --host 0.0.0.0 --port 8000
-```
-
-**前端服务**：
-```bash
-cd web
-npm install
-npm run dev
-```
 
 ## 📖 使用指南
 
@@ -241,16 +238,18 @@ auto_ven/
 | PUT | `/user/{uid}/soul` | 更新用户人设 |
 | PUT | `/user/{uid}/memory` | 更新用户记忆 |
 
-## ⚠️ 注意事项
+## 🙏 致谢
 
-- 本项目仅供学习和研究使用，请遵守各平台的使用规范
-- 自动化操作建议保持合理频率，避免触发风控
-- 建议在开发环境下使用，生产环境需要额外的安全配置
+Akka 基于以下优秀的开源项目构建：
+
+- **[browser-use](https://github.com/browser-use/browser-use)** - 浏览器自动化框架
+- **[LangChain](https://github.com/langchain-ai/langchain)** - LLM 应用开发框架
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** - 多 Agent 编排框架
+- **[FastAPI](https://github.com/tiangolo/fastapi)** - 现代 Python Web 框架
+- **[Next.js](https://github.com/vercel/next.js)** - React 全栈框架
+
+感谢这些项目背后的开发者和社区！
 
 ## 📄 License
 
 MIT License
-
----
-
-Powered by DeepAgents & Trae
