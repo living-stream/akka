@@ -38,10 +38,10 @@
 
 ---
 
-## � 演示视频
+## 🎬 演示视频
 
 <p align="center">
-  <img src="akka_demo.gif" alt="Akka Demo" width="800">
+  <img src="akka_demo_small.gif" alt="Akka Demo" width="600">
 </p>
 
 ---
