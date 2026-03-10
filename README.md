@@ -11,7 +11,7 @@ English | [简体中文](README_ZH.md)
 </p>
 
 <p align="center">
-  <a href="video.mp4">🎬 Watch Demo Video</a>
+  <a href="akka_demo.gif">🎬 Watch Demo Video</a>
 </p>
 
 <p align="center">
