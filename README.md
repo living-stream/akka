@@ -21,7 +21,8 @@ English | [简体中文](README_ZH.md)
 
 ## 📖 Table of Contents
 
-- [🍊 Akka - AI-Powered Social Media Operation Tool](#-akka---ai-powered-social-media-operation-tool)
+- [🍊 Akka - Self-learning, 24/7 Creator Agent](#-akka---self-learning-247-creator-agent)
+  - [🎬 Demo Video](#-demo-video)
   - [🎯 Core Capabilities](#-core-capabilities)
   - [🚀 Quick Start](#-quick-start)
   - [✨ Features](#-features)
@@ -265,12 +266,12 @@ Akka is built on the following excellent open-source projects:
 
 Thanks to the developers and communities behind these projects!
 
-## � Contact Us
+## 📧 Contact Us
 
 If you have any questions or suggestions, feel free to contact us:
 
 - **Email**: burns@ven-ai.top
 
-## �📄 License
+## 📄 License
 
 MIT License
