@@ -41,7 +41,7 @@
 ## 🎬 演示视频
 
 <p align="center">
-  <img src="akka_demo_small.gif" alt="Akka Demo" width="600">
+  <img src="akka_demo_optimized.gif" alt="Akka Demo" width="560">
 </p>
 
 ---
