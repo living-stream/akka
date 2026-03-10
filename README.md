@@ -11,10 +11,6 @@ English | [简体中文](README_ZH.md)
 </p>
 
 <p align="center">
-  <a href="akka_demo.gif">🎬 Watch Demo Video</a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/Node.js-18+-green.svg" alt="Node.js">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">

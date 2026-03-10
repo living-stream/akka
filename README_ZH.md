@@ -11,10 +11,6 @@
 </p>
 
 <p align="center">
-  <a href="video.mp4">🎬 观看演示视频</a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/Node.js-18+-green.svg" alt="Node.js">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
