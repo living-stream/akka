@@ -41,7 +41,13 @@ English | [简体中文](README_ZH.md)
 ## 🎬 Demo Video
 
 <p align="center">
-  <img src="akka_demo_optimized.gif" alt="Akka Demo" width="560">
+  <a href="https://www.youtube.com/watch?v=zXXZHrjyeTY">
+    <img src="https://img.youtube.com/vi/zXXZHrjyeTY/maxresdefault.jpg" alt="Akka Demo" width="600">
+  </a>
+</p>
+
+<p align="center">
+  <i>Click to watch the demo video</i>
 </p>
 
 ---
