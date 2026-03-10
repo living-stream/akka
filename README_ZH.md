@@ -38,7 +38,15 @@
 
 ---
 
-## 🎯 核心能力
+## � 演示视频
+
+<p align="center">
+  <img src="akka_demo.gif" alt="Akka Demo" width="800">
+</p>
+
+---
+
+## �🎯 核心能力
 
 Akka（**A**utomated **K**nowledge & **K**ontent **A**ssistant）是一个开源的 **可以自学习的、7*24h 创作者 Agent**，通过 **浏览器自动化**、**素材搜索**、**内容生成** 和 **内容发布**，实现从选题到发布的完整闭环。
 

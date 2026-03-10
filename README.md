@@ -38,6 +38,14 @@ English | [简体中文](README_ZH.md)
 
 ---
 
+## 🎬 Demo Video
+
+<p align="center">
+  <img src="akka_demo.gif" alt="Akka Demo" width="800">
+</p>
+
+---
+
 ## 🎯 Core Capabilities
 
 Akka (**A**utomated **K**nowledge & **K**ontent **A**ssistant) is an open-source **self-learning, 24/7 Creator Agent** that achieves a complete loop from topic selection to publishing through **browser automation**, **material search**, **content generation**, and **content publishing**.
