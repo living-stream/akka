@@ -1,6 +1,6 @@
 English | [简体中文](README_ZH.md)
 
-# 🍊 Akka - AI-Powered Social Media Operation Tool
+# 🍊 Akka - Self-learning, 24/7 Creator Agent
 
 <p align="center">
   <img src="akka.png" alt="Akka" width="600">
@@ -8,6 +8,10 @@ English | [简体中文](README_ZH.md)
 
 <p align="center">
   <strong>Complete the full loop from topic selection to publishing with a single sentence</strong>
+</p>
+
+<p align="center">
+  <a href="video.mp4">🎬 Watch Demo Video</a>
 </p>
 
 <p align="center">
@@ -36,7 +40,7 @@ English | [简体中文](README_ZH.md)
 
 ## 🎯 Core Capabilities
 
-Akka (**A**utomated **K**nowledge & **K**ontent **A**ssistant) is an open-source **AI Social Media Operation Assistant** that achieves a complete loop from topic selection to publishing through **browser automation**, **material search**, **content generation**, and **content publishing**.
+Akka (**A**utomated **K**nowledge & **K**ontent **A**ssistant) is an open-source **self-learning, 24/7 Creator Agent** that achieves a complete loop from topic selection to publishing through **browser automation**, **material search**, **content generation**, and **content publishing**.
 
 Just one instruction, Akka automatically completes:
 

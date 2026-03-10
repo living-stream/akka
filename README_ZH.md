@@ -1,6 +1,6 @@
 [English](README.md) | 简体中文
 
-# 🍊 Akka（阿卡）- AI 驱动的自媒体运营神器
+# 🍊 Akka（阿卡）- 可以自学习的、7*24h 创作者 Agent
 
 <p align="center">
   <img src="akka.png" alt="Akka" width="600">
@@ -8,6 +8,10 @@
 
 <p align="center">
   <strong>一句话，完成从选题到发布的完整闭环</strong>
+</p>
+
+<p align="center">
+  <a href="video.mp4">🎬 观看演示视频</a>
 </p>
 
 <p align="center">
@@ -36,7 +40,7 @@
 
 ## 🎯 核心能力
 
-Akka（**A**utomated **K**nowledge & **K**ontent **A**ssistant）是一个开源的 **AI 自媒体运营助手**，通过 **浏览器自动化**、**素材搜索**、**内容生成** 和 **内容发布**，实现从选题到发布的完整闭环。
+Akka（**A**utomated **K**nowledge & **K**ontent **A**ssistant）是一个开源的 **可以自学习的、7*24h 创作者 Agent**，通过 **浏览器自动化**、**素材搜索**、**内容生成** 和 **内容发布**，实现从选题到发布的完整闭环。
 
 只需一句话指令，Akka 自动完成：
 
